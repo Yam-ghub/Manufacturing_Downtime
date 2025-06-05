@@ -3,44 +3,74 @@
 
 ![Power BI](https://img.shields.io/badge/Built with-Power%20BI-darkblue) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-A Power BI report that transforms raw production data into clear, actionable insights for real-time plant operations.  
-Created as my first Power BI competition entry—with guidance from **DataSense Analytics** and the **Data Analytics Philippines** community.
+A Power BI report built to analyze and improve manufacturing line performance through real-time insights.  
+This is my first Power BI competition, and I'm proud to present a dashboard focused on identifying key production bottlenecks and operator performance issues.
 
 ---
 
-## ✨ Key Features
-| Section | What It Shows | Why It Matters |
-|---------|---------------|----------------|
-| **Header & Slicers** | Report date range, plant / line filters | One-click navigation |
-| **Single Big Numbers (SBNs)** | Total batches, production time, downtime, avg. batch time, overall efficiency | Instant health check |
-| **Production Analysis** | Batch trends, top SKUs, flavor mix | Spot demand patterns |
-| **Operator Analysis** | Batches, downtime, efficiency per operator | Identify top & low performers |
-| **Downtime RCA** | Product downtime, downtime factors, operator-factor heatmap | Pinpoint root causes |
-| **Current vs Target** | Live production rate vs 80 % goal | Track progress toward optimal efficiency |
+## ✨ Dashboard Overview
+
+| Section | Description |
+|---------|-------------|
+| **Single Big Numbers (SBNs)** | Displays key metrics at a glance: Total Downtime, Line Efficiency, Current Production Rate, Target Production Time, and Target Production Rate. |
+| **Operator Analysis** | Focuses on individual operator downtime and efficiency to spot performance gaps. |
+| **Downtime Analysis (RCA) ** | Root cause breakdown: identifies major downtime drivers by type, product, and operator. |
+| **Current vs Target** | Compares actual production metrics vs. the 80% efficiency goal to track progress. |
+
+---
 
 ---
 
 ## 📊 Main KPIs
-- **Total Downtime** and **Downtime by Product / Factor / Operator**  
-- **Current Production Rate** vs **80 % Target**  
-- **Average Batch Time** & **Operator Efficiency**
+🕒 Total Downtime (min):
+How much production time was lost due to various issues.
+
+⚙️ Line Efficiency (%):
+Measures how efficiently the production line runs compared to its ideal performance (target is 80%).
+
+📈 Current Production Rate:
+Actual output rate of the line based on current performance.
+
+🎯 Target Production Rate:
+Output rate required to meet the 80% efficiency goal.
+
+⏱️ Target Production Time:
+Estimated production time needed if the line runs at 80% efficiency.
+
+👷 Operator Downtime (by operator error):
+Total downtime attributed to operator-related issues per person.
+
+💪 Operator Efficiency:
+How well each operator performs, factoring in time and output.
+
+📦 Product Downtime:
+Highlights which products experienced the most downtime—key for identifying problematic SKUs or production processes.
 
 ---
 
 ## 🛠️ Tech Stack
 | Tool | Purpose |
 |------|---------|
-| **Power BI Desktop** | Data modeling & visualizations |
+| **Power BI Desktop** | Data modeling, Transformation visualizations |
 | **DAX** | Custom measures (efficiency %, downtime calculations) |
-| **Python (optional)** | Pre-processing CSVs (Jupyter) |
+| **Excel Workbook** | Extracted Data Source
 
 ---
 
-## 🔥 Insights Delivered
-1. **Batch Change** and **Machine Adjustment** are the top downtime drivers.  
-2. **CO 600** records the highest product downtime—priority for process review.  
-3. **Mac** (batch tasks) and **Charlie/Dennis** (machine tasks) show the largest operator downtime gaps.  
-4. Reaching the **80 % line-efficiency benchmark** requires cutting ≤ 494 minutes of downtime per 2 470-minute batch.
+## 🔥 Key Insights
+
+1. **Batch Change** and **Machine Adjustment** are the leading causes of operator-related downtime.
+2. **CO 600** has the highest downtime among products—suggesting a need for process review.
+3. Operators **Mac**, **Charlie**, and **Dennis** are key contributors to top downtime factors.
+4. Closing the gap to the **80% efficiency target** requires reducing downtime by up to **494 minutes** per batch cycle.
+
+---
+
+## 🙌 Acknowledgements
+
+Huge thanks to:
+- **DataSense Analytics** – for the free Power BI training and mentorship  
+- **Emerson Manila** and **Data Analytics Philippines** – for organizing this inspiring event
 
 ---
 
