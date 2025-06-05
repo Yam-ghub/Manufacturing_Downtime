@@ -1,6 +1,4 @@
 # Official Submission – Emerson x DAPH National Data Challenge 2025
-![Dashboard Overview](Images/ss.png)
-
 # Manufacturing Performance Dashboard  
 ![Dashboard Overview](Images/ManufacturingDownTime_Dashboard.png)
 
