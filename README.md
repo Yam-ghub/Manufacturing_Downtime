@@ -1,5 +1,5 @@
-# Official Submission – Emerson x DAPH National Data Challenge 2025
 # Manufacturing Performance Dashboard  
+*Official Submission – Emerson x DAPH National Data Challenge 2025*
 ![Dashboard Overview](Images/ManufacturingDownTime_Dashboard.png)
 
 A Power BI report built to analyze and improve manufacturing line performance through real-time insights.  
